@@ -1,0 +1,235 @@
+ body{
+     color: cornsilk;
+ }
+#title{
+    background-color: #e2314f; 
+    padding: 3% 6%;
+}
+
+.navbar{
+    padding-bottom: 1.7rem;
+    text-decoration: none;
+}
+
+
+.container-fluid{
+    padding: 1%;
+}
+
+.navbar-brand{
+    padding: 6px 12px;
+    font-size: 2.5rem;
+    color: rgb(245, 241, 241);
+}
+.collapse{
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.navbar-nav{
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.nav-item{
+      font-size: 1.3rem;
+      color: rgb(245, 241, 241);
+      padding: 8px 10px;    
+}
+.nav-link{
+    color: #f5f1f2;
+}
+
+.heading1{
+    margin: auto 3%;
+    font-size: 4rem;
+  color: rgb(245, 241, 241);
+}
+#img3{
+    margin: auto 5%;
+    width: 78%;
+    transform: rotate(25deg);
+    /* position: absolute; */
+}
+
+.btn{
+    margin: 5% 3%;
+    padding: 1% 2%;
+}
+/* .btn btn-outline-light{
+    padding: 6px 16px;
+} */
+
+
+
+
+#features{  
+    padding: 3% 6%;
+    background-color: #f5f1f2;
+    /* position: relative;
+    z-index: 1; */
+}
+.box{
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    padding: 4% 8%;
+}
+#box1{
+    margin: auto 3%;
+    padding: 1% 2%;    
+    text-align: center;
+}
+#box2{
+    margin: auto 3%;
+    padding: 1% 2%;
+    text-align: center;
+}
+#box3{
+    margin: auto 3%;
+    padding: 1% 2%;
+    text-align: center;
+}
+i{
+    margin-bottom: 3%;
+}
+p{
+   font-size: 1.2rem;
+}
+
+
+#testimonals{
+    background-color:#e2314f ;
+    margin-bottom: 0%;
+}
+.carousel-item{
+    margin: 2% auto;
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    margin: 1% auto;
+    padding: auto;
+    color: rgb(245, 243, 243);
+}
+em{
+    text-align: center;
+    margin: 3% 46%;
+    font-size: 1.3rem;
+    color: rgb(245, 243, 243);
+}
+
+#img1{
+    margin: 4% 42%;
+    text-align: center;
+    width: 20%;
+    height: 24%;
+    border: 2px solid white;
+    border-radius: 35%;
+}
+#img2{
+    margin: 4% 42%;
+    text-align: center;
+    width: 20%;
+    height: 24%;
+    border: 2px solid white;
+    border-radius: 30%;
+}
+
+.press{
+    margin: 2% 10%;
+   
+}
+#press1{
+    display: flex;
+    flex-direction: row;
+    padding: 4% 20%;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    margin: 2% 3%;
+}
+#downs{
+    background-color: #e2314f;
+    text-align: center;
+    padding: 2% 2%;
+}
+.down{
+    margin: 2% auto;
+    padding: 3% 4%;
+    text-align: center;
+}
+.heading2{
+    margin: auto 3%;
+    font-size: 2.5rem;
+    color: rgb(245, 241, 241);
+}
+
+#footer{
+    margin: 2% auto;
+}
+  
+
+
+#pricing{
+    margin: 5% auto;
+}
+
+.heading{
+    text-align: center;
+    padding: 4% 4%;
+    padding-bottom: 1%;
+}
+.cards{
+    text-align: center;
+    padding: 5% 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    margin: auto 3%;
+    border: 2px solid #e2314f;
+    border-radius: 4px;
+}
+
+.head1{
+    margin: 2% 3%;
+    font-size: 3.2rem;
+    color: black;
+}
+.head2{
+    border: 2px solid #e2314f;
+    background-color: #e9e3e4;
+}
+.head3{
+    font-size: 2.5rem;
+    padding: 2% auto;
+    color: black;
+}
+.btn2{
+    margin: 3% 4%;
+    padding: 2% 24%;
+}
+
+@media (max-width:1020px) {
+    #title img3{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/* @media (max-width:1560px) {
+      .icon{
+          
+      }
+} */
